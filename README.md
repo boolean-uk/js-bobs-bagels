@@ -55,3 +55,10 @@ As a member of the public,
 So that I can prepare to pay
 When I go to checkout I'd like to know the total sum of the bagels in my basket
 ```
+---
+```
+# Extension 1
+As a member of the public,
+So that i can save money
+I'd like to achieve savings when buying combo deals or buying in bulk
+```
