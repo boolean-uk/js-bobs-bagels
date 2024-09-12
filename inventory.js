@@ -1,5 +1,4 @@
-{
-  "inventory": [
+const inventory = [
     {
       "sku": "BGLO",
       "price": "0.49",
@@ -52,4 +51,5 @@
       ]
     }
   ]
-}
+
+  export default inventory
