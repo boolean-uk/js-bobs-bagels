@@ -1,0 +1,63 @@
+{
+    "inventory": [
+      {
+        "sku": "BGLO",
+        "price": "0.49",
+        "name": "Bagel",
+        "variant": "Onion",
+        "quantity": 1
+      },
+      {
+        "sku": "BGLP",
+        "price": "0.39",
+        "name": "Bagel",
+        "variant": "Plain",
+        "quantity": 1
+      },
+      {
+        "sku": "BGLE",
+        "price": "0.49",
+        "name": "Bagel",
+        "variant": "Everything",
+        "quantity": 1
+      },
+      {
+        "sku": "BGLS",
+        "price": "0.49",
+        "name": "Bagel",
+        "variant": "Sesame",
+        "quantity": 1
+      },
+      {
+        "sku": "COF",
+        "price": "0.99",
+        "name": "",
+        "variant": "Coffee",
+        "quantity": 1
+      },
+      {
+        "sku": "BGSE",
+        "price": "2.99",
+        "name": "Bagel Sandwich",
+        "variant": "Everything",
+        "fillings": [
+          "Bacon",
+          "Egg",
+          "Cheese"
+        ],
+        "quantity": 1
+      },
+      {
+        "sku": "BGSS",
+        "price": "4.99",
+        "name": "Bagel Sandwich",
+        "variant": "Sesame",
+        "fillings": [
+          "Cream Cheese",
+          "Smoked Salmon"
+        ],
+        "quantity": 1
+      }
+    ]
+  }
+  
