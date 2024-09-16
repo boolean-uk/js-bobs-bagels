@@ -30,8 +30,30 @@ Our goods are priced individually. In addition, some items are multi-priced: buy
            5.55
 ```
 
+
+
 ## Task
 
 Update and extend your program to handle these orders at Bob's Bagels.
 
 Start with extracting useful stories and a functional domain model that represents these requirements.
+
+
+story summary:
+buy n of them(bagel.sku), and they'll cost you y pounds.
+ie. calculateTotal to include discounted price
+
+properties:
+CLASS: Basket {
+    basket: [inventory]
+    capacity: integer (default = 10)
+}
+
+UPDATE:METHOD-
+calculateTotal(void) - calculateInitialTotal(void)
+METHOD:
+calculateDiscountedTotal(void) ->
+    INPUT: @basket
+    OUTPUT: returns the total cost with the discounts applied
+            when criteria not met  -> calculateInitialTotal(void)
+            when criteria are met -> calculateDiscountedTotal(void)
