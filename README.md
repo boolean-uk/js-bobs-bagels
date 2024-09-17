@@ -12,10 +12,8 @@ In this challenge, you will transform User Stories into a Domain Model and devel
 
 A **User Story** describes one thing a program is expected to do, from the perspective of somebody using that program. When planning a program, the client's requirements will be decomposed into many User Stories. Much of a developer's life is spent translating User Stories into a functional system. In Object-Oriented Programming, these systems are made up of **Objects** and **Messages**. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 
-
 ## User Stories
 
-```
 # Part 1
 As a member of the public
 So I can order a bagel when I want to

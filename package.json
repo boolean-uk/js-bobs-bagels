@@ -29,5 +29,8 @@
     "husky": "^7.0.4",
     "jasmine": "^3.10.0",
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "columnify": "^1.6.0"
   }
 }

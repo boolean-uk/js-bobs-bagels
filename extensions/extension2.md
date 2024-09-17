@@ -13,7 +13,7 @@ Start with extracting useful stories and a functional domain model that represen
     ~~~ Bob's Bagels ~~~
 
     2021-03-16 21:38:44
-
+    
 ----------------------------
 
 Onion Bagel        2   £0.98
