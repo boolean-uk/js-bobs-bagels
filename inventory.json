@@ -50,6 +50,12 @@
         "Cream Cheese",
         "Smoked Salmon"
       ]
+    },
+    {
+      "sku": "COFB",
+      "price": "1.25",
+      "name": "Coffee & Plain Bagel",
+      "variant": ""
     }
   ]
 }
