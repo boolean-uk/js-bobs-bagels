@@ -1,0 +1,9 @@
+{
+  "baskets": [
+    {
+      "id": 1,
+      "capacity": 5,
+      "items": []
+    }
+  ]
+}

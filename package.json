@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "![](./_images/bagels.jpg)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "npx jasmine"
   },
@@ -26,8 +27,10 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
+    "express": "^4.18.2",
     "husky": "^7.0.4",
-    "jasmine": "^3.10.0",
-    "prettier": "^2.6.2"
+    "jasmine": "5.1.0",
+    "prettier": "^2.6.2",
+    "supertest": "^6.3.3"
   }
 }

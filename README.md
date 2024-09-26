@@ -1,3 +1,10 @@
+### HOW TO RUN
+
+1. Clone this repo
+2. Run `npm install`
+3. Run `node app` in the root directory
+
+
 # Bob's Bagels
 
 ![](./_images/bagels.jpg)
