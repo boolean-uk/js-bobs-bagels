@@ -16,18 +16,22 @@
     "url": "https://github.com/boolean-uk/js-bobs-bagels/issues"
   },
   "homepage": "https://github.com/boolean-uk/js-bobs-bagels#readme",
-  "prettier": "@boolean-uk/boolean-prettier-config",
   "devDependencies": {
-    "@boolean-uk/boolean-prettier-config": "^1.0.2",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.1",
-    "husky": "^7.0.4",
-    "jasmine": "^3.10.0",
-    "prettier": "^2.6.2"
-  }
+    "jasmine": "^3.10.0"
+  },
+  "dependencies": {
+    "balanced-match": "^1.0.2",
+    "brace-expansion": "^1.1.11",
+    "concat-map": "^0.0.1",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.2.0",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.4",
+    "jasmine-core": "^3.10.1",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "keywords": []
 }
