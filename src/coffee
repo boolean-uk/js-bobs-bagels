@@ -1,0 +1,21 @@
+const { productType } = require("./productType");
+
+class coffee {
+
+    constructor(coffeeType){
+        this.type=productType.Coffee
+        this.coffeeType=coffeeType
+    }
+  
+    getPrice(){
+        return Math.round(this.coffeeType.price * 100) / 100
+       // return this.coffeeType.price
+    }
+}
+CoffeeType={
+    COFB:{coffeType:"Black", price:0.99},
+    COFW:{offeeType:"White", price:1.19},
+    COFC:{coffeeType:"Cappuccino", price:1.29},
+    COFL:{coffeeType:"Latte", price:1.29}
+}
+module.exports = {coffee,CoffeeType}

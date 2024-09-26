@@ -1,0 +1,43 @@
+const { productType } = require("./productType")
+
+class bagelSandwich{
+    constructor(fillings,bagel){
+        this.fillings=fillings
+        this.bagel=bagel
+        this.type=productType.BagelSandwich
+       
+    }
+    
+    getFillingsPrice(){
+        let fillingsPrice=0
+        for(let i=0;i<this.fillings.length;i++){
+            fillingsPrice+=this.fillings[i].price
+        }
+        return Math.round(fillingsPrice * 100) / 100
+        //return fillingsPrice
+    }
+    getBagelPrice(){
+       return Math.round(this.bagel.price * 100) / 100
+       // return this.bagel.price
+    }
+    getPrice(){
+       return Math.round((this.getBagelPrice()+this.getFillingsPrice()) * 100) / 100
+       // return (this.getBagelPrice()+this.getFillingsPrice())
+    }
+
+}
+Bagel={
+    BGLO:{bagelType:"Onion", price:0.49},
+    BGLP:{bagelType:"Plain", price:0.39},
+    BGLE:{bagelType:"Everything",price: 0.49},
+    BGLS:{bagelType:"Sesame", price: 0.49}
+}
+Filling={
+    FILB:{fillingType:"Bacon",price:0.12},
+    FILE:{fillingType:"Eggs",price:0.12},
+    FILC:{fillingType:"Cheese",price:0.12},
+    FILX:{fillingType:"Cream Cheese",price:0.12},
+    FILS:{fillingType:"Smoked",price:0.12},
+    FILH:{fillingType:"Ham",price:0.12}
+}
+module.exports = {bagelSandwich,Bagel,Filling}
