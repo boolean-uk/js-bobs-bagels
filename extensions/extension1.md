@@ -9,10 +9,10 @@ Our goods are priced individually. In addition, some items are multi-priced: buy
 #### Bob's Bagels Inventory
 |  SKU   |  Name  |  Variant   | Price | Special offers
 |--------|--------|------------|-------|----
-|  BGLO  | Bagel  | Onion      |  .49  | 6 for 2.49     
+|  BGLO  | Bagel  | Onion      |  .49  | 6 for 2.49
 |  BGLP  | Bagel  | Plain      |  .39  | 12 for 3.99
 |  BGLE  | Bagel  | Everything |  .49  | 6 for 2.49
-|  COF   | Coffee |            |  .99  | Coffee & Plain Bagel for 1.25             
+|  COF   | Coffee |            |  .99  | Coffee & Plain Bagel for 1.25
 
 #### Example orders
 ```
