@@ -2,6 +2,7 @@
   "name": "js-bobs-bagels",
   "version": "1.0.0",
   "description": "![](./_images/bagels.jpg)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "npx jasmine"
@@ -27,7 +28,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
     "husky": "^7.0.4",
-    "jasmine": "^3.10.0",
+    "jasmine": "^5.1.0",
     "prettier": "^2.6.2"
   }
 }
