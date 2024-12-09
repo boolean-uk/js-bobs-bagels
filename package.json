@@ -1,24 +1,28 @@
 {
   "name": "js-bobs-bagels",
   "version": "1.0.0",
+  "private": true,
   "description": "![](./_images/bagels.jpg)",
-  "main": "index.js",
+  "author": "",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "npx jasmine"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/boolean-uk/js-bobs-bagels.git"
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.3.4"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/boolean-uk/js-bobs-bagels/issues"
-  },
-  "homepage": "https://github.com/boolean-uk/js-bobs-bagels#readme",
-  "prettier": "@boolean-uk/boolean-prettier-config",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
     "@boolean-uk/boolean-prettier-config": "^1.0.2",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.2.1",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
@@ -26,8 +30,43 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-vue": "^8.0.3",
     "husky": "^7.0.4",
     "jasmine": "^3.10.0",
-    "prettier": "^2.6.2"
+    "postcss": "^8.4.26",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.3.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "prettier": "@boolean-uk/boolean-prettier-config",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "_id": "js-bobs-bagels@1.0.0",
+  "bugs": {
+    "url": "https://github.com/boolean-uk/js-bobs-bagels/issues"
+  },
+  "homepage": "https://github.com/boolean-uk/js-bobs-bagels#readme",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boolean-uk/js-bobs-bagels.git"
   }
 }
